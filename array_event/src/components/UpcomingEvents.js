@@ -10,7 +10,7 @@ function UpcomingEvents({ events }) {
   const twoWeeksFromToday = new Date(today);
 
   twoWeeksFromToday.setDate(today.getDate()+14);
-    console.log(twoWeeksFromToday);
+    
 
   const openModal = (event) => {
     setSelectedEvent(event);
