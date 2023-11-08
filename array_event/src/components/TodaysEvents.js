@@ -10,8 +10,6 @@ function TodaysEvents({ events }) {
     const today = new Date();
     
 
-    // console.log(isModalOpen);
-
     const openModal = (event) => {
 
       setSelectedEvent(event);
